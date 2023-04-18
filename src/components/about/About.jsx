@@ -23,7 +23,8 @@ const About = () => {
                 A Flutter developer also needs to stay up-to-date with the latest industry trends and updates, collaborate with designers and other developers, 
                 and continuously improve their skills to deliver the best results.
                 </p>
-                <a download="" href={CV} className="button button--flex">
+
+                <a download="" href={CV} className="button button--flex about_button">
                     Download Cv
                     
           

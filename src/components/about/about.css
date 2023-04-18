@@ -23,7 +23,9 @@
     text-align: center;
     padding: 1rem 1.25rem;
 }
-
+.about_button{
+    margin-top: 4px;
+}
 .about__icon {
     font-size: 1.5rem;
     color: var(--title-color);
