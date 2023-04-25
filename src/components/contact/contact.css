@@ -28,10 +28,10 @@ margin-top: 30px;
 .contact__input{
     padding: 20px;
     color: black;
-    background-color: rgb(204, 204, 204);
+    /* background-color: rgb(204, 204, 204); */
     border-radius: 8px;
-    outline: none;
-    border: none;
+    
+    border: 1px solid rgb(155, 155, 155);
     font-weight: 500;
 }
 .contact_button{
@@ -42,8 +42,20 @@ margin: 20px;
     font-weight: bold;
     font-size: 35px;
 }
+.contact__title{
+    align-items: start;
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+    font-size: 30px;
+    width: 75%;
+}
 @media screen and (max-width:550px ) {
     .contact__containeritem{
        width: 80%;
+    }
+    .contact__title{
+       
+        width: 100%;
     }
 }

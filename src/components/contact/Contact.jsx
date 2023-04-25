@@ -5,7 +5,7 @@ export default function Contact() {
     const [credentails, setcredentails] = useState({});
   return (
     <section className='services section' id='contact'>
-        <h2 className='section__title'>Contact Me</h2>
+        <h2 className='section__title'>Love to hear trom you, <br /> Get in touch 👋</h2>
         <div className='contact__container'>
   <div
   className='contact__containeritem'

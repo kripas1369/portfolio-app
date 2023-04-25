@@ -73,22 +73,17 @@ const Services = () => {
    
     <div className="services__container container grid">
         <div className="services__content">
-            <div>
+            <div className='services_titles'>
                 <i className='uil uil-web-grid services__icon'></i>
                 <h3 className='services__title'>
-                     Product <br/> Designer</h3>
+                     Product Designer</h3>
             </div>
-            <span className="services__button" onClick={()=>toggleTap(1)}>
-                View More {" "}
-            <i className='uil uil-arrow-right
-            services__button-icon'></i>
-            </span>
+           
 
             <div>
                 <div className={toggleState === 1 ? "services__modal active-modal" : "services_modal" }>
                     <div className="services__modal-content">
-                        <i onClick={()=>toggleTap(0)} className="uil uil-times
-                        services__model-close"></i>
+                        
 
                         <h3 className='services__modal-title'></h3>
                         <p className='sercices__modal-description'>
@@ -125,20 +120,16 @@ const Services = () => {
         </div>
         
         <div className="services__content">
-            <div>
+            <div className='services_titles'>
                 <i className='uil uil-web-grid services__icon'></i>
-                <h3 className='services__title'>Ui/Ux<br/> Designer</h3>
+                <h3 className='services__title'>Ui/Ux Designer</h3>
             </div>
-            <span className="services__button">View More {" "}
-            <i className='uil uil-arrow-right
-            services__button-icon'></i>
-            </span>
+          
 
             <div>
                 <div className='services__modal'>
                     <div className='services__modal-content'>
-                        <i className='uil uil-times
-                        services__model-close'></i>
+                        
 
                         <h3 className='services__modal-title'></h3>
                         <p className='sercices__modal-description'>
@@ -176,20 +167,16 @@ const Services = () => {
        
 
         <div className="services__content">
-            <div>
+            <div className='services_titles'>
                 <i className='uil uil-edit services__icon'></i>
-                <h3 className='services__title'>Visual<br/> Designer</h3>
+                <h3 className='services__title'>Visual Designer</h3>
             </div>
-            <span className="services__button">View More {" "}
-            <i className='uil uil-arrow-right
-            services__button-icon'></i>
-            </span>
+
 
             <div>
                 <div className='services__modal'>
                     <div className='services__modal-content'>
-                        <i className='uil uil-times
-                        services__model-close'></i>
+                       
 
                         <h3 className='services__modal-title'></h3>
                         <p className='sercices__modal-description'>
